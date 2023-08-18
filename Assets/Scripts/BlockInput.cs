@@ -61,7 +61,6 @@ public class BlockInput : MonoBehaviour
                 
                 if (uiElement.TryGetComponent<Block>(out var block))
                 {
-                    Debug.Log(block.number);
                     MoveHandler.Instance.AddBlockToMove(block);
                 }
             }
